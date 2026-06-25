@@ -16,6 +16,16 @@ export default function App() {
   const [deferredPrompt, setDeferredPrompt] = useState<any>(null);
 
   useEffect(() => {
+    const timer = setInterval(() => {
+      if (!currentVideo) {
+        window.location.reload();
+      }
+    }, 20 * 60 * 1000); // 20 minutes
+
+    return () => clearInterval(timer);
+  }, [currentVideo]);
+
+  useEffect(() => {
     const handleBeforeInstallPrompt = (e: any) => {
       e.preventDefault();
       setDeferredPrompt(e);
