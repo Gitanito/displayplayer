@@ -1,0 +1,26 @@
+{
+  "characters": [
+    {
+      "id": "char1",
+      "name": "Alice",
+      "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=300&q=80",
+      "defaultVideoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "teaserVideoUrls": ["https://www.w3schools.com/html/movie.mp4"],
+      "videos": [
+        { "id": "v1", "url": "https://www.w3schools.com/html/mov_bbb.mp4", "keywords": ["test", "hi"] },
+        { "id": "v2", "url": "https://www.w3schools.com/html/movie.mp4", "keywords": ["dance", "music"] }
+      ]
+    },
+    {
+      "id": "char2",
+      "name": "Bob",
+      "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+      "defaultVideoUrl": "https://www.w3schools.com/html/movie.mp4",
+      "teaserVideoUrls": ["https://www.w3schools.com/html/mov_bbb.mp4"],
+      "videos": [
+        { "id": "v3", "url": "https://www.w3schools.com/html/mov_bbb.mp4", "keywords": ["test", "wahnsinn","cool"] },
+        { "id": "v4", "url": "https://www.w3schools.com/html/movie.mp4", "keywords": ["run", "fast"] }
+      ]
+    }
+  ]
+}

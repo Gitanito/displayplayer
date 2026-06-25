@@ -1,0 +1,10 @@
+{
+  "name": "Voice-Activated Video Interaction",
+  "description": "An interactive web app that uses voice commands to trigger seamless video playback based on character-specific configurations.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
